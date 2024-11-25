@@ -1,6 +1,6 @@
 from typing import List, Dict
 import json
-from logger import log, error, success
+from .logger import log, success, error
 
 
 class Book:

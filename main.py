@@ -4,7 +4,7 @@ from my_library.logger import log, error
 
 def main():
     try:
-        library = Library("database.json")
+        library = Library("my_library/database.json")
         while True:
             log("\nДоступные команды:")
             log("1. Добавить книгу")
